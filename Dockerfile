@@ -38,7 +38,7 @@ RUN mvn clean package
 #//----------------------------------------------------------------//#
 #//-------------------------  [EJECUCION] -------------------------//#
 #//----------------------------------------------------------------//#
-FROM adoptopenjdk/openjdk8:alpine-slim as RUNTIME
+FROM adoptopenjdk/openjdk8:alpine-slim
 
 #7. DOCUMENTANDO: 
 MAINTAINER cesar guerra cesarricardo_guerra19@hotmail.com
