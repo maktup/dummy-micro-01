@@ -9,13 +9,13 @@
 #  adoptopenjdk/openjdk8:alpine-slim    90.2MB
 #  oracle/graalvm-ce                    ???
 #-------------- [PESOS DE IMAGENES] -----------#
-
+ 
 
 #//----------------------------------------------------------------//#
 #//------------------------  [COMPILACION] ------------------------//#
 #//----------------------------------------------------------------//#
 FROM maven:3-jdk-8-alpine as CONSTRUCTOR 
-
+  
 #1. CREA DIRECTORIO 'build':  
 RUN mkdir -p /build
 
